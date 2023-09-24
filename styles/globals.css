@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: white;
+}
+
+/* NavBar */
+.bg-frosted {
+  background-color: rgba(15, 15, 15, 0.40);
+  backdrop-filter: blur(9px);
+}
+
+/* Footer */
+.shadow {
+  -webkit-box-shadow: inset 0px 6px 0px 0px rgba(255, 52, 52, 1);
+  -moz-box-shadow: inset 0px 6px 0px 0px rgba(255, 52, 52, 1);
+  box-shadow: inset 0px 6px 0px 0px rgba(255, 52, 52, 1);
+}
