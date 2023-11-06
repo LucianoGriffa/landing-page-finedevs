@@ -4,7 +4,6 @@ import NavBar from "./components/NavBar";
 import HomePage from "./components/HomePage";
 import Services from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs.jsx";
-
 import Contact from "./components/Contact";
 import Footer from "./components/Footer.jsx";
 export default function Home() {

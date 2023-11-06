@@ -17,10 +17,7 @@ const Navbar = () => {
         <li className='font-extrabold text-center items-center justify-center text-white' onClick={handleLinkClick}><Link href='/#home' >Home</Link></li>
         <li className='font-extrabold text-center items-center justify-center text-white' onClick={handleLinkClick}><Link href='/#services' >Services</Link></li>
         <li className='font-extrabold text-center items-center justify-center text-white' onClick={handleLinkClick}><Link href='/#whychooseus' >Why Choose Us</Link></li>
-        {/* <li className='font-extrabold text-center items-center justify-center text-white' onClick={handleLinkClick}><Link href='/#work' >Work Done</Link></li>
-        <li className='font-extrabold text-center items-center justify-center text-white' onClick={handleLinkClick}><Link href='/#' >Language</Link></li> */}
         <li className='hover:bg-finedevs-red hover:border-finedevs-red ease-in-out transition font-extrabold text-center items-center justify-center text-white uppercase p-2 pl-4 pr-4 border border-white rounded-3xl' onClick={handleLinkClick}><Link href='/#contact' >Contact</Link></li>
-        <li className='hover:bg-finedevs-red hover:border-finedevs-red ease-in-out transition font-extrabold text-center items-center justify-center text-white uppercase p-2 pl-4 pr-4 border border-white rounded-3xl' onClick={handleLinkClick}><Link href='/Spanish' >Español</Link></li>
       </ul>
       <button className="btn btn-square btn-ghost lg:hidden border-1 border-white rounded-full" onClick={() => setToogleNav(!toogleNav)}>
         {toogleNav ? (
