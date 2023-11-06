@@ -3,7 +3,7 @@
   - Created by [Luciano Griffa](https://www.linkedin.com/in/lucianogriffa/).
 ## Technologies 
 <div align="left">
-    <img src="https://skillicons.dev/icons?i=vscode,github,git,html,css,tailwind,js,typescript,react,nextjs"/><br>
+    <img src="https://skillicons.dev/icons?i=vscode,github,git,html,css,tailwind,js,react,nextjs"/><br>
 </div>
 
 ***
