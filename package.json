@@ -1,7 +1,8 @@
 {
-  "name": "finedevs2",
+  "name": "finedevs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Luciano Griffa",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
