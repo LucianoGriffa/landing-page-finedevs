@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Finedevs</title>
-        <meta name="description" content="Finedevs ofrece servicios de software para empresas y/o negocios." />
+        <meta name="description" content="Finedevs offers software services for companies and/or businesses." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Finedevs" />
         <link rel="icon" href="/favicon.ico" />
