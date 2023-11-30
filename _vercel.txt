@@ -1,1 +1,2 @@
-vc-domain-verify=www.finedevs.agency,fe60b2393349e5bc9778
+vc-domain-verify=www.finedevs.agency,7646c92d80c29558b5e5
+vc-domain-verify=finedevs.agency,eb1c0a4f57ba3e15de57
