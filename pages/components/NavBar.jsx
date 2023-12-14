@@ -11,7 +11,7 @@ const Navbar = () => {
     smoothScroll(event.target.hash);
   }
   return (
-    <nav className={`w-full h-16 fixed bg-frosted flex flex-row z-50 items-center justify-between p-10 ${toogleNav ? 'w-full h-full flex flex-col' : ''}`}>
+    <nav className={`w-full h-16 fixed bg-frosted flex flex-row z-[100] items-center justify-between p-10 ${toogleNav ? 'w-full h-full flex flex-col' : ''}`}>
       <h1 className="font-extrabold text-3xl text-white">Fine<span className='text-finedevs-red'>devs</span></h1>
       <ul className={`min-xl:${toogleNav ? 'w-full flex flex-col justify-center items-center text-white text-center p-4 gap-6 bg-finedevs-red rounded-3xl top-24' : 'w-full h-full flex flex-row justify-center items-center gap-8 max-lg:gap-3 max-lg:hidden'}`}>
         <li className='font-extrabold text-center items-center justify-center text-white' onClick={handleLinkClick}><Link href='/#home' >Home</Link></li>

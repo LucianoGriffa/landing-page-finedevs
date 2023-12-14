@@ -11,10 +11,10 @@ export default function Home() {
     <>
       <Head>
         <title>Finedevs</title>
-        <meta name="description" content="Finedevs offers software services for companies and/or businesses." />
+        <meta name="description" content="Transform your business with custom software from Finedevs. We use leading technologies to ensure quality performance. High quality projects with exceptional results. Contact us to find the perfect solution!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Finedevs" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/finedevs-Logo.png" />
       </Head>
       <main className='font-finedevs-font bg-finedevs-black'>
         <NavBar/>
@@ -23,6 +23,12 @@ export default function Home() {
         <WhyChooseUs/>
         <Contact/>
         <Footer/>
+        <div className="blurHome"></div>
+        <div className="blurHome2"></div>
+        <div className="blurService"></div>
+        <div className="blurService2"></div>
+        <div className="blurWhyChooseUs"></div>
+        <div className="blurContact"></div>
       </main>
     </>
   )

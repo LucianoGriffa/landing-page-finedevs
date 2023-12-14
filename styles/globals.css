@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: white;
+  background-color: #110F0F;
 }
 
 /* NavBar */
@@ -17,4 +17,148 @@
   -webkit-box-shadow: inset 0px 6px 0px 0px rgba(255, 52, 52, 1);
   -moz-box-shadow: inset 0px 6px 0px 0px rgba(255, 52, 52, 1);
   box-shadow: inset 0px 6px 0px 0px rgba(255, 52, 52, 1);
+}
+/* Blur */
+.blurHome {
+  position: absolute;
+  box-shadow: 0 0 1000px 150px #ff000f;
+  z-index: 10;
+  top: 150px;
+  right: 150px;
+  overflow: hidden;
+}
+.blurHome2 {
+  position: absolute;
+  box-shadow: 0 0 1000px 150px #ff000f;
+  z-index: 10;
+  bottom: 150px;
+  left: 100px;
+}
+.blurService {
+  position: absolute;
+  box-shadow: 0 0 1000px 150px #ff000f;
+  z-index: 10;
+  top: 1600px;
+  left: 300px;
+  overflow: hidden;
+}
+.blurService2 {
+  position: absolute;
+  box-shadow: 0 0 1000px 150px #ff000f;
+  z-index: 10;
+  top: 1200px;
+  right: 200px;
+}
+.blurWhyChooseUs {
+  position: absolute;
+  box-shadow: 0 0 1000px 150px #ff000f;
+  z-index: 10;
+  top: 2300px;
+  right: 150px;
+  overflow: hidden;
+}
+.blurContact {
+  position: absolute;
+  box-shadow: 0 0 1000px 150px #ff000f;
+  z-index: 10;
+  top: 2900px;
+  left: 280px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .blurHome {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    top: 150px;
+    right: 150px;
+    overflow: hidden;
+  }
+  .blurHome2 {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    bottom: 150px;
+    left: 100px;
+  }
+  .blurService {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    top: 1600px;
+    left: 300px;
+    overflow: hidden;
+  }
+  .blurService2 {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    top: 1200px;
+    right: 200px;
+  }
+  .blurWhyChooseUs {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    top: 2300px;
+    right: 150px;
+    overflow: hidden;
+  }
+  .blurContact {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    top: 2900px;
+    left: 280px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 425px) {
+  .blurHome {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    top: 150px;
+    right: 150px;
+    overflow: hidden;
+  }
+  .blurHome2 {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    bottom: 0px;
+    left: 100px;
+  }
+  .blurService {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    top: 1700px;
+    left: 300px;
+    overflow: hidden;
+  }
+  .blurService2 {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    top: 2400px;
+    right: 200px;
+  }
+  .blurWhyChooseUs {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    top: 3300px;
+    right: 150px;
+    overflow: hidden;
+  }
+  .blurContact {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ff000f;
+    z-index: 10;
+    top: 4200px;
+    left: 280px;
+    overflow: hidden;
+  }
 }
