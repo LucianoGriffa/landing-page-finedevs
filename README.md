@@ -8,6 +8,7 @@
 
 ***
 
-![Image](https://github.com/LucianoGriffa/landing-page-finedevs/assets/73656863/614ec89e-8bab-45af-b04b-f22690191e1d)
+![image](https://github.com/LucianoGriffa/landing-page-finedevs/assets/73656863/701d7c3c-b70d-43e7-bbb9-76fc08f1b481)
+
 
 ***
